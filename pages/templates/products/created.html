@@ -1,0 +1,10 @@
+{% extends 'pages/base.html' %}
+{% block title %}Product Created{% endblock %}
+
+{% block content %}
+<div class="text-center mt-5">
+  <h2>✅ Product created</h2>
+  <a href="{% url 'form' %}" class="btn btn-primary mt-3">Create another</a>
+  <a href="{% url 'index' %}" class="btn btn-secondary mt-3">Back to products</a>
+</div>
+{% endblock %}
